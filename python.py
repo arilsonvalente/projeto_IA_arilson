@@ -13,7 +13,7 @@ while True:
 
     opcao = input("\nEscolha uma opção: ")
 
-    # 1 - CADASTRAR ALUNO
+
     if opcao == "1":
 
         nome = input("Digite o nome do aluno: ")
@@ -22,7 +22,7 @@ while True:
 
         print(f"Aluno '{nome}' cadastrado com sucesso!")
 
-    # 2 - LISTAR ALUNOS
+    
     elif opcao == "2":
 
         if len(alunos) == 0:
